@@ -6,9 +6,9 @@
   "active" : true,
   "members" : [
     {
-      "name" : "Molecule Man",
-      "age" : 29,
-      "secretIdentity" : "Dan Jukes",
+      "name" : "Giovanni Bindi",
+      "age" :36,
+      "secretIdentity" : "Tonga",
       "powers" : [
         "Radiation resistance",
         "Turning tiny",
@@ -16,18 +16,18 @@
       ]
     },
     {
-      "name" : "Madame Uppercut",
-      "age" : 39,
-      "secretIdentity" : "Jane Wilson",
+      "name" : "Daniele Grosso",
+      "age" : 42,
+      "secretIdentity" : "Ada",
       "powers" : [
-        "Million tonne punch",
-        "Damage resistance",
+        "PUA",
+        "playlist master",
         "Superhuman reflexes"
       ]
     },
     {
-      "name" : "Eternal Flame",
-      "age" : 1000000,
+      "name" : "Federico Vanzati",
+      "age" : 33,
       "secretIdentity" : "Unknown",
       "powers" : [
         "Immortality",

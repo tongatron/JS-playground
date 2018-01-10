@@ -25,7 +25,7 @@
     var header = document.querySelector('header');
     var section = document.querySelector('section');
 
-    var requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json';
+    var requestURL = 'http://tongatron.it/JS-playground/superheroes.json';
     var request = new XMLHttpRequest();
     request.open('GET', requestURL);
     request.responseType = 'json';
@@ -38,11 +38,11 @@
 
     function populateHeader(jsonObj) {
       var myH1 = document.createElement('h1');
-      myH1.textContent = jsonObj['squadName'];
+      myH1.textContent = 'Ci chiamiamo: ' + jsonObj['squadName'];
       header.appendChild(myH1);
 
       var myPara = document.createElement('p');
-      myPara.textContent = 'Hometown: ' + jsonObj['homeTown'] + ' // Formed: ' + jsonObj['formed'];
+      myPara.textContent = 'Città: ' + jsonObj['homeTown'] + ' // Formed: ' + jsonObj['formed'];
       header.appendChild(myPara);
     }    
 
